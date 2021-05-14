@@ -3,7 +3,7 @@ import os
 from tkinter import Tk
 from tkinter import filedialog
 
-def photo_order():
+def pics_order():
 
     #I/O folders----------------------------------------------------------------
     print("Select your input folder")
@@ -68,5 +68,5 @@ def photo_order():
     print("Found files: {} \nMoved files: {}".format(goodcount +
     badcount, goodcount))
 
-photo_order()
+pics_order()
 os.system("pause")
