@@ -15,3 +15,8 @@ Your folders are going to be organized as follows:
 ## requirements.txt
 
 list of required packages
+
+
+## execution
+
+After executing the script in cmd, you should **press enter** to make it start.
