@@ -50,7 +50,7 @@ def photo_order():
                         print("# {:<15s}      Data: {}-{}-{}".format(file, d, m, y))
                         goodcount += 1
                 except:
-                    print("# {:<15s}      No info sulla data!".format(file))
+                    print("# {:<15s}      No EXIF data info!".format(file))
                     badcount += 1
                     continue
                 m = month[int(m)]
