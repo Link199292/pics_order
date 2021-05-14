@@ -15,7 +15,7 @@ def photo_order():
     from_path = from_path.replace("/", "\\")
     to_path = filedialog.askdirectory()
     to_path = to_path.replace("/", "\\")
-    print("Hai selezionato:\nInput:   {}\nOutput:   {}".format(from_path,
+    print("You have selected:\nInput:   {}\nOutput:   {}".format(from_path,
     to_path))
     print("Let's start!")
     os.system("pause")
